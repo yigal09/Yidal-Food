@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCTU FOOD HUB</title>
+    <style>
+        body {
+            background-color: #C6F4D6; /* Light Green */
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: #d6b210; /* White */
+            padding: 20px;
+            border: 1px solid #DDDDDD;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .menu-item {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .menu-item img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .order-btn {
+            background-color: #da0606;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .order-btn:hover {
+            background-color: #3e8e41;
+        }
+        .price {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact(0505277159/0506347524)</a> 
+        </div>
+        <h1>GCTU FOOD HUB</h1>
+        <hr>
+        <div class="menu-item">
+            <img src="NOODLES.jpg">
+            <h2>Noodles</h2>
+            <p class="price">GHC 50</p>
+            <button class="order-btn" onclick="window.location.href='payment.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="PLAIN RICE.jpg">
+            <h2>Plain Rice</h2>
+            <p class="price">GHC 50</p>
+            <button class="order-btn" onclick="window.location.href='payment.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="PIZZA.jpg">
+            <h2>Pizza</h2>
+            <p class="price">GHC 50</p>
+            <button class="order-btn" onclick="window.location.href='payment.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="SHAWARMA.jpg">
+            <h2>Shawarma</h2>
+            <p class="price">GHC 50</p>
+            <button class="order-btn" onclick="window.location.href='payment.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="WAAKYE 3.jpg">
+            <h2>Waakye</h2>
+            <p class="price">GHC 50</p>
+            <button class="order-btn" onclick="window.location.href='payment.html'">Order Now</button>
+        </div>
+    </div>
+</body>
+</html>

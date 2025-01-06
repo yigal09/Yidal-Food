@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gctu Canteen</title>
+<link rel="stylesheet" href="(link unavailable)">
+<style>
+body {
+font-family: Arial, sans-serif;
+background-image: url('food-background.jpg');
+background-size: cover;
+background-position: center;
+}
+
+    .container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #cf7c0e;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #d1a209;
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    .header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .header li {
+        margin-right: 20px;
+    }
+    
+    .header a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .food-item {
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .food-item img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .food-item h2 {
+        margin-top: 10px;
+    }
+    
+    .food-item p {
+        margin-bottom: 20px;
+    }
+    
+    .price {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .order-button {
+      
+        background-color: #333;
+        color: #dedede;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .order-button:hover {
+        background-color: #555;
+    }
+    
+    @media (max-width: 768px) {
+        .container {
+            margin: 20px auto;
+            padding: 10px;
+        }
+        
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .header ul {
+            flex-direction: column;
+        }
+        
+        .header li {
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Gctu Canteen</h1>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a>:  0505277150 / 0244665249 </li>
+</ul>
+</div>
+<div class="food-item">
+<img src="gob3.jpg" alt="Gob3">
+<h2>Gob3 Friday</h2>
+<p>Delicious Gob3 with fried plantain.</p>
+<p class="price">GH₵ 25.00</p>
+<a class="order-button" href="order.html" >Order Now</a>
+</div>
+<div class="food-item">
+<img src="waakye.jpg" alt="Waakye">
+<h2>Waakye House</h2>
+<p>Tasty Waakye with egg and sausage.</p>
+<p class="price">GH₵ 30.00</p>
+<a class="order-button" href="order.html" >Order Now</a>
+</div>
+<div class="food-item">
+<img src="jollof.jpg" alt="">
+<h2>Jollof de jollof</h2>
+<p>Classic Jollof with chicken and plantain.</p>
+<p class="price">GH₵ 35.00</p>
+<a class="order-button" href="order.html" >Order Now</a>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
